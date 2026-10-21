@@ -94,7 +94,7 @@ CURSOR = f'<span style="background:{INK};color:{INK};font-size:13px;">&nbsp;█<
 
 #: 全部推送统一使用的固定标题：微信通知栏横幅只显示这一行，
 #: 定时抓取、手动分析、合并研报、主题因子分析四种推送共用同一口径。
-PUSH_TITLE = "章鱼 AI · 全景分析（实时事件因子）"
+PUSH_TITLE = "章鱼AI . 事件 005"
 
 MANUAL_TITLE = "章鱼 AI 全景分析"
 MANUAL_SUBTITLE = "全网 AI 调研境内境外数据，由多个大模型混合部署。"

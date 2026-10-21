@@ -332,7 +332,7 @@ class TestRender(unittest.TestCase):
         """全部推送标题统一为固定品牌标题，不再拼条数/时间/头条。"""
         title = render_title(7, REF, item("长鑫科技上市首日大涨", 3))
         self.assertEqual(title, PUSH_TITLE)
-        self.assertEqual(title, "章鱼 AI · 全景分析（实时事件因子）")
+        self.assertEqual(title, "章鱼AI . 事件 005")
 
     def test_title_when_empty(self):
         self.assertEqual(render_title(0, REF, None), PUSH_TITLE)
