@@ -592,7 +592,7 @@ class TestRenderTheme(PipelineTestCase):
         """全部推送标题统一，不随主题/分数变化。"""
         title = render_theme_title("人形机器人", self.analysis, ref=REF)
         self.assertEqual(title, PUSH_TITLE)
-        self.assertEqual(title, "章鱼 AI · 全景分析（实时事件因子）")
+        self.assertEqual(title, "章鱼AI . 事件 005")
 
     def test_title_ignores_regulatory_risk(self):
         """监管风险只呈现在正文里，不塞进通知标题。"""
